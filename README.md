@@ -1,8 +1,8 @@
-# Dashboard - CRUD with ReactJS and Typscript
+# Dashboard-CRUD with ReactJS-Typescript and Hooks
 
 ## Features
 
-- ReactJS with Hooks
+- ReactJS-Typescript with Hooks
 - Auth Login with API REST
 - Forms validations with Hooks
 - LocalStorage Encryption with secure-ls

@@ -47,7 +47,11 @@ type FormData = {
   description: string;
 };
 
-const CategoryForm: FunctionComponent<{ id: number }> = ({ id }) => {
+type CategoryFormProps = {
+  id: number;
+};
+
+const CategoryForm: FunctionComponent<CategoryFormProps> = ({ id }) => {
   const classes = useStyles();
   const {
     handleSubmit,

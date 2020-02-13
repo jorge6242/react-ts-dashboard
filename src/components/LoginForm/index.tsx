@@ -45,7 +45,12 @@ type FormData = {
   password: string;
 }
 
-const LoginForm: FunctionComponent<{ handleForm: any, loading: boolean }> = ({ handleForm, loading }) => {
+type LoginFormProps = {
+  handleForm: any;
+  loading: boolean;
+}
+
+const LoginForm: FunctionComponent<LoginFormProps> = ({ handleForm, loading }) => {
   const classes = useStyles();
   const { handleSubmit, register, errors } = useForm<FormData>();
 

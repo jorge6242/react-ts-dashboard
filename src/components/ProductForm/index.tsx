@@ -50,7 +50,11 @@ type FormData = {
   categories_id: number;
 };
 
-const ProductForm: FunctionComponent<{ id: number }> = ({ id }) => {
+type ProductFormProps = {
+  id: number;
+};
+
+const ProductForm: FunctionComponent<ProductFormProps> = ({ id }) => {
   const classes = useStyles();
   const {
     handleSubmit,
